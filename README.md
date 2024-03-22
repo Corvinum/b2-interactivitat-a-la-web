@@ -33,8 +33,8 @@ He utilizado el modelo de cajas Flex, además de CDN para algunos iconos. Para l
 	- `galeria.css`: Archivo CSS que estiliza `galeria.html`.
 	- `sobre.css`: Archivo CSS que estiliza `sobre.html`.
 	- `contacto.css`: Archivo CSS que estiliza `contacto.html`.
-- `media`: Carpeta contenedora de de carpetas usadas par almacenar los recursos multimedia, una por cada pagina.
-	- `general`: Contiene todos los recursos multimedia de proposito general que se llegar a encontrar en todas o varias paginas.
+- `media` Carpeta contenedora de de carpetas usadas par almacenar los recursos multimedia, una por cada pagina.
+	- `general` Contiene todos los recursos multimedia de proposito general que se llegar a encontrar en todas o varias paginas.
 	- `index`: Contiene todos los recursos multimedia de la pagina `inicio`.
 	- `rutas`: Contiene todos los recursos multimedia de la pagina `rutas`. La siguiente estructura es como he ordenado las imagenes que se encargan de aparecer en la selección de ruta y en el slider automatico.
 		- `erosionbird`
