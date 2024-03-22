@@ -19,7 +19,7 @@ He utilizado el modelo de cajas Flex, además de CDN para algunos iconos. Para l
 - Selector de imagen automático
 <img src="https://media.discordapp.net/attachments/1220512525045465128/1220556908826595398/selector.gif?ex=660f5f33&is=65fcea33&hm=c126fdecc64ae51bfa97306b1d699e84fc833fb85b3f608ad0b887d2ee1e28cd&=" width="800px">
 - Formulario que responde al submit.
-<img src="https://media.discordapp.net/attachments/1220512525045465128/1220557888905416754/form.gif?ex=660f601d&is=65fceb1d&hm=88c4527382356df3ad22e4a9d891fe260bd7c0c1d39cfb0a9895302b2de31867&=" width="800px">
+<img src="https://media.discordapp.net/attachments/1220512525045465128/1220562261626720286/VdeosinttuloHechoconClipchamp1-ezgif.com-video-to-gif-converter.gif?ex=660f6430&is=65fcef30&hm=536ff46edf661e1ed3f7b58773d7568ec1b95a824d5fc77e0cd95a267b449e5e&=" width="800px">
 ## Rendimiento
 - La selección de fotos para la galería de rutas están en formato WEBP, un formato bastante ligero.
 ## Estructura de archivos
@@ -33,18 +33,21 @@ He utilizado el modelo de cajas Flex, además de CDN para algunos iconos. Para l
 	- `galeria.css`: Archivo CSS que estiliza `galeria.html`.
 	- `sobre.css`: Archivo CSS que estiliza `sobre.html`.
 	- `contacto.css`: Archivo CSS que estiliza `contacto.html`.
-- `media` Carpeta contenedora de de carpetas usadas par almacenar los recursos multimedia, una por cada pagina.
-	- `general` Contiene todos los recursos multimedia de proposito general que se llegar a encontrar en todas o varias paginas.
+- `media`: Carpeta contenedora de de carpetas usadas par almacenar los recursos multimedia, una por cada pagina.
+	- `general`: Contiene todos los recursos multimedia de proposito general que se llegar a encontrar en todas o varias paginas.
 	- `index`: Contiene todos los recursos multimedia de la pagina `inicio`.
 	- `rutas`: Contiene todos los recursos multimedia de la pagina `rutas`. La siguiente estructura es como he ordenado las imagenes que se encargan de aparecer en la selección de ruta y en el slider automatico.
-		- `erosionbird`
+		- `erosionbird` 
 		- `fauna`
 		- `libre`
 		- `navegar`
 	- `sobre`: Contiene todos los recursos multimedia de la pagina `sobre`.
 	- `contact`: Contiene todos los recursos multimedia de la pagina `contact`.
-- scripts
-
+- `scripts`: Contiene los distintos scripts que he utilizado.
+	- `contact.js`: Encargado de la interacción con el formulario de contacto
+	- `day-night.js`: Encargado del pequeño modo nocturno diurno.
+	- `preloader.js` Encargado de la animación de carga durante las cargas de las distintas paginas.
+	- `rutas.js` Encargado de tanto las animaciones de la selección y deselección de rutas, como del slider automático, he de decir que ha sido lo mas duro, y he tenido que utilizar algo de ayuda para algunas cosas que no entendía del todo.
 
 ### Pequeña nota
 El motivo por el que entrego tarde el proyecto es porque he tenido que reescribir mucho codigo por que he rompí algunas cosas del codigo, las cuales me di cuenta que no estaban correctas del todo.
