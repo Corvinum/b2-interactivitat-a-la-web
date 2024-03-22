@@ -1,0 +1,143 @@
+/*Importo una fuente para poder usarla en toda la pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+/*Normalizo*/
+* {
+  font-family: 'Raleway';
+  font-size: 1rem;
+  color: #E4EBF1;
+  padding: 0;
+  margin: 0;
+  /*Solucionando el problema de que el padding y 
+  border no se incluyen en el tamaño*/
+  box-sizing:border-box;
+}
+  
+body{
+    /*FLEX PROPERTIES*/  
+    display: flex;
+    flex-direction: column;
+  
+  /*ESTO SE ENCARGA DE NO ROMPER EL FLOW*/
+    height:100vh;
+}
+
+h1{
+  color: #FFFF;
+  font-size: 3rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+p{color: black;}
+
+/*Donde se ubica el logo y los links a otros apartados*/
+header{
+  display: flex;
+
+  /* background-color: #394867; */
+  justify-content:space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#navbar {
+  background-color: #EAEBF1;
+  display: flex;
+  border: solid black 4px;
+  
+}
+#navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+#navbar-links li{
+  list-style-type: none;
+  font-weight: 600;
+}
+
+#navbar-links :nth-child(-n+3) a:hover{ 
+  border-bottom:white 2px solid;
+  color: white;
+}
+
+
+#btn-contact {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px;
+  transition: transform 0.4s ease;
+  transform-origin: center;
+}
+
+#btn-contact:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+footer{
+  /*RELLENO PROPIEDADES*/
+  background-color: #09283D;  
+  padding: 2rem;
+
+
+  display: flex;
+  /*FLEX PROPIEDADES*/
+  flex-direction: column;
+  align-items: center;
+}
+
+#social-media img{
+  transition: transform 0.4s ease, transform 0.4s;
+  width: 3rem;
+}
+
+#social-media img:hover{
+  transform: scale(1.4) translateY(-16px);
+}
+
+
+#sun-moon{
+  background-color: rgb(216, 216, 216);
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor:pointer;
+  transition: transform 1s ease;
+}
+
+#sun-moon:hover{
+  transform: rotate(360deg);
+}
+
+
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: url("../media/general/loading_screen.gif") no-repeat center center;
+  background-size: cover;
+}
+
+.preloader{
+  transition: opacity 1s ease;
+}
+
+.preloader-hidden{
+  opacity:0;
+}
+/*BREAKPOINT LATE CHAR &#9776*/

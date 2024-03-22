@@ -1,0 +1,45 @@
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index:-1;
+}
+body {
+  position: relative;
+  background: url(../media/index/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#btn-hero{
+  background-color: #211d26;
+  border: solid wheat;
+  padding: 20px;
+  cursor: pointer;
+}
+#portada{
+  display: flex;
+  /*FLEX PROPIEDADES*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+footer{
+  flex-shrink: 0;
+}
+#portada-titulo{
+  font-family: 'Fjalla One';
+  font-size: 58px;
+}

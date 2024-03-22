@@ -1,0 +1,30 @@
+body{
+  background: url(../media/contact/contact_back2.png) no-repeat;
+  
+  background-position: center;
+  background-size: cover;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 40px;
+}
+
+#form-wrapper{
+  padding: 100px;
+  background-color: whitesmoke ;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#form-wrapper textarea {
+  resize: none;
+}
+#form-wrapper *{
+  color: black;
+}

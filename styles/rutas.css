@@ -1,0 +1,58 @@
+body{
+  background: url(../media/contact/contact_back.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#filter-back{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: -1;
+}
+main{
+  
+  height: 100vh;
+
+  /*PROPIEDADES FLEX*/
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  text-align: center;
+}
+
+#rutas-contenedor {
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ruta-selector{
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+
+.ruta {
+  transition: opacity 0.2s, transform 0.4s;
+}
+
+.ruta img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+.no-hover {
+  transition: all 0.3s ease;
+  width: 70%;
+  height: 80%;
+}
